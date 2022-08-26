@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="worldChat.css">
+    </head>
+    <body>
+
+        <h1>WORLD CHAT</h1>
+
+        <div class="content">
+
+            <form id="add-chat-form">
+                <input type="text" name="message" placeholder="send your message" >
+                <input type="text" name="id" placeholder="enter your ROOM_ID" >
+                <button>Send</button>
+            </form>
+
+            <ul id="chat-list"></ul>
+
+        </div>
+
+        
+        <script src="worldChat.js" defer></script>
+    </body>
+</html>
